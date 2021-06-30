@@ -1,9 +1,11 @@
 import axios from 'axios'
 import subject from './subject';
+import topic from './topic'
+
 
 let api={}
 api=Object.assign(api,subject)
-console.log(api);
+api=Object.assign(api,topic)
 
 const instance=axios.create({
     baseURL:"http://localhost:3000",
