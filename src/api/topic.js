@@ -12,7 +12,7 @@ function selectFind(where){
     return instance({
         url:"/topics/selectFind",
         method:"get",
-        data:where
+        params:where
     })
 }
 
@@ -44,7 +44,7 @@ function RightOrWrongFind(where){
     return instance({
         url:"/topics/RightOrWrongFind",
         method:"get",
-        data:where
+        params:where
     })
 }
 
@@ -76,7 +76,7 @@ function RightOrWrongFind(where){
     return instance({
         url:"/topics/FillingFind",
         method:"get",
-        data:where
+        params:where
     })
 }
 

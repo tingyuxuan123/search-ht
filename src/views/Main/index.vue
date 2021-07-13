@@ -115,12 +115,16 @@ export default {
 .el-main {
   // background-color: #e9eef3;
   // color: #333;
+  height: calc(100vh - 60px);
   padding: 10px;
 
 }
 
 .el-container {
-  height: 100%;
+  /* height: calc(100vh); */
+  height: 100vh;
+  /* min-width: 1000px;
+  min-height: 600px; */
 
 }
 

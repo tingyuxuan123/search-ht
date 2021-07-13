@@ -156,12 +156,13 @@ export default {
 .content{
   text-align: center;
   line-height: 46px;
-  &:hover{
-    background-color: #e0e0e0;
-
-  }
   &:nth-child(even){
     background-color: #fafafa;
+  }
+
+    &:hover{
+    background-color: #e0e0e0;
+
   }
 }
 
